@@ -34,6 +34,9 @@ WITH_GAPPS := false
 TARGET_FACE_UNLOCK_SUPPORTES := true
 TARGET_USES_BLUR := true
 
+# Official
+DOTFE_OFFICIAL := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dotfe_enchilada
 PRODUCT_DEVICE := enchilada
