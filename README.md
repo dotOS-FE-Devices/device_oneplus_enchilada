@@ -24,6 +24,7 @@ Copyright 2021 - The AOSP Project.
 ## Build instructions
 ```
 # Compiling
-lunch aosp_enchilada-userdebug (this will auto pull all dependencies)
-mka bacon
+lunch dotfe_enchilada-userdebug (this will auto pull all dependencies)
+m installclean (to make a clean build)
+make bacon | tee log.txt
 ```
